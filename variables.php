@@ -8,23 +8,20 @@
     <title>Document</title>
 </head>
 <body>
+<hr style="margin-bootom: 10px;">
 <?php
-$string="Strycharczyk";
-echo "<br><br>$string<br>";
-var_dump($string);
-
-$liczba=18;
-echo "<br><br>$liczba<br>";
-var_dump($liczba);
-
-$float=18.5;
-echo "<br><br>$float<br>";
-var_dump($float);
-
-$bool=true;
-echo "<br><br>$bool<br>";
-var_dump($bool);
+$a = 97;
+$b = 3.14;
+$c = 'PHP';
 ?>
+<style>
+    .double-underline {
+        border-bottom: 4px double;
+    }
+</style>
+<h3 style="color:red"><?= $a ?> jest liczbą pierwszą</h3>
+<p style="color: #FF6347">Liczba Pi zaokrąglona do dwóch miejsc po przecinku: <?= $b ?></p>
+<div style="color: green"; text-decoration: underline-double;"><?= $c ?> to język skrpytowy wykonywany po stronie</div>
 
 <li><a href="index.php">Powrót do strony głównej</a></li>
 

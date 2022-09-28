@@ -21,7 +21,7 @@ print ("Zgłasza się funkcja print<br>")
  Walas nie kox
  */
 ?>
-<?="Walas pali papierosy<br>"?>
+<?="1111111111111<br>"?>
 <?="I". "śmierdzi". "od". "niego"?>
 
 <li><a href="index.php">Powrót do strony głównej</a></li>
