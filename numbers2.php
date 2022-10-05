@@ -40,7 +40,7 @@ echo "<br>";
 $x=4;
 $y=35;
 $a = 2*$x + 2*$y;
-echo "Obwod prostokata " .$x." i " .$y." wynosi " .$a."<br>";
+echo "Obwod prostokatatrret " .$x." i " .$y." wynosi " .$a."<br>";
 echo "<br>";
 ?>
 
