@@ -1,16 +1,27 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 2px solid black;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
+
 <?php
-$znaki=str_split("Witaj swiecie!");
+$dni = array("Pon", "Wto", "Sro", "Czw", "Pia", "Sob", "Nie");
 
-foreach($znaki as $znak)
-{
-    echo"<td>".$znak."</td>";
-}
+echo "<table>";
+    echo "<tr>";
+
+        foreach ($dni as $dzien)
+        echo "<td>$dzien</td>";
+    echo "</table>";
 ?>
-
 </body>
 </html>
