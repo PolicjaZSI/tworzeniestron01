@@ -12,8 +12,8 @@ $currentMonth = date('m');
 ?>
 <select>
     <?php
-    foreach($months as $key => $month) {
-        $selected = ($key+1 == $currentMonth) ? 'selected' : '';
+    foreach($months as $obecny => $month) {
+        $selected = ($obecny+1 == $currentMonth) ? 'selected' : '';
         echo '<option value="'.$month.'" '.$selected.'>'.$month.'</option>';
     }
     ?>
